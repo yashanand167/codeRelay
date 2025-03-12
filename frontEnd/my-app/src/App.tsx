@@ -1,14 +1,15 @@
 //import { useState } from 'react'
 import './App.css'
+import LandingPage from './Home/LandingPage.js';
+
 
 function App() {
-  //const [count, setCount] = useState(0)
-  
+
   return (
     <>
-     <p className='text-xl'>hello</p>
+     <LandingPage/>
     </>
   )
 }
 
-export default App
+export default App;
